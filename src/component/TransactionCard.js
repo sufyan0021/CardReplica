@@ -4,7 +4,9 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 import Button from 'react-bootstrap/Button';
 import ErrorIcon from '@material-ui/icons/Error';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import {
+    Link
+  } from "react-router-dom";
 const TransactionCard = () => {
     return (
         <div className='transCard'>
@@ -42,7 +44,7 @@ const TransactionCard = () => {
                     <Button className='transBtns authorizeBtn'>Authorize</Button>
                 </div>
                 <div className='fullDetails'>
-                            <p>Full Details</p>
+                <Link to="/about"><p>Full Details</p></Link>
                             <ExpandMoreIcon/>
                     </div>
             </div>

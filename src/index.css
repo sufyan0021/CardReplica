@@ -126,6 +126,7 @@ code {
 .fullDetails p{
   text-decoration: underline;
   font-weight: 500;
+  color: black;
 }
 
 .fullDetails .MuiSvgIcon-root{

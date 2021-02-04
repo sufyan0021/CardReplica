@@ -2,13 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import TransactionCard from './component/TransactionCard'
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-        <TransactionCard/>
-    </div>
+    <Router>
+      <div className="App">
+        <Header/>
+          <TransactionCard/>
+      </div>
+    </Router>
   );
 }
 
