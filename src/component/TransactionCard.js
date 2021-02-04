@@ -3,6 +3,7 @@ import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 import Button from 'react-bootstrap/Button';
 import ErrorIcon from '@material-ui/icons/Error';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const TransactionCard = () => {
     return (
@@ -40,6 +41,10 @@ const TransactionCard = () => {
                     <Button className='transBtns rejectBtn'>Reject</Button>
                     <Button className='transBtns authorizeBtn'>Authorize</Button>
                 </div>
+                <div className='fullDetails'>
+                            <p>Full Details</p>
+                            <ExpandMoreIcon/>
+                    </div>
             </div>
         </div>
     )

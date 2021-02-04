@@ -28,8 +28,7 @@ code {
   justify-content: space-between;
   color:black;
   background-color: white;
-  padding: 15px;
-  padding-left: 150px;
+  padding: 15px 15px 15px 150px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 21%);
   border-radius: 3px;
 }
@@ -108,5 +107,29 @@ code {
   font-size: 10px;
 }
 
+.fullDetails{
+    margin-top: 22px;
+    align-self: flex-end;
+    padding-right: 14px;
+    font-size: 12px;
+}
 
+.tranCardRightDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.fullDetails{
+  display: flex;
+}
+
+.fullDetails p{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.fullDetails .MuiSvgIcon-root{
+  margin-top: 0px;
+  font-size: 19px;
+}
 
